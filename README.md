@@ -8,6 +8,7 @@ For now it supports:
 
 - Length (distance)
 - Mass (weight)
+- Area
 
 ### Installation:
 
@@ -82,3 +83,18 @@ ton (long)              |              ltn
 ton (short)             |              stn
 ton-metric              |               t
 tonne (U.S. metric ton) |               t
+
+Area
+
+Unit              | Abbreviation in easy-converter
+----------------- | :----------------------------:
+square inch       |              in2
+square foot       |              ft2
+square yard       |              yd2
+square mile       |              mi2
+acre              |               ac
+hectare           |               ha
+square millimeter |              mm2
+square centimeter |              cm2
+square meter      |               m2
+square kilometer  |              km2
