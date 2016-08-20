@@ -4,7 +4,7 @@
     "description": "A unit converter for Javascript",
     "main": "lib",
     "scripts": {
-        "test": "mocha test"
+        "test": "mocha tests"
     },
     "repository": {
         "type": "git",
