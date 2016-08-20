@@ -28,24 +28,25 @@ c.convert(1, 'cm').to('m');
 #### Supported Units :
 
 Distance
-| Unit          | Abbreviation in easy-converter  |
-| --------------|:-------------------------------:|
-| mil           | mil                             |
-| inch          | in                              |
-| foot          | ft                              |
-| yard          | yd                              |
-| mile          | mi                              |
-| capefoot      | cp                              |
-| rod           | rd                              |
-| angstrom      | A                               |
-| nanometer     | n                               |
-| micron        | µ                               |
-| millimeter    | mm                              |
-| centimeter    | cm                              |
-| meter         | m                               |
-| kilometer     | km                              |
-| light-year    | ly                              |
-| light-day     | ld                              |
-| light-hour    | lh                              |
-| light-minute  | lm                              |
-| light-second  | ls                              |
+
+Unit         | Abbreviation in easy-converter
+------------ | :----------------------------:
+mil          |              mil
+inch         |               in
+foot         |               ft
+yard         |               yd
+mile         |               mi
+capefoot     |               cp
+rod          |               rd
+angstrom     |               A
+nanometer    |               n
+micron       |               µ
+millimeter   |               mm
+centimeter   |               cm
+meter        |               m
+kilometer    |               km
+light-year   |               ly
+light-day    |               ld
+light-hour   |               lh
+light-minute |               lm
+light-second |               ls
