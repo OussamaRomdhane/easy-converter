@@ -1,7 +1,7 @@
 {
     "name": "easy-converter",
-    "version": "0.1.1",
-    "description": "A modular unit converter for Javascript",
+    "version": "0.1.2",
+    "description": "A unit converter for Javascript",
     "main": "lib",
     "scripts": {
         "test": "mocha test"

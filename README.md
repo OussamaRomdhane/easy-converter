@@ -1,8 +1,8 @@
 # easy-converter
 
-## The ambitious hopefully universal modular unit converter
+## The ambitious, easy to use unit converter
 
-easy-converter is a unit converter that will hopefully handle weight, length, area (..) convertions.
+easy-converter is a unit converter that will handle weight, length, area (..) conversions.
 
 For now it supports:
 
