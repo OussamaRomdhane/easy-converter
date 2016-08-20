@@ -1,23 +1,26 @@
 {
-    "name": "easy-converter",
-    "version": "0.1.0",
-    "description": "A modular unit converter for Javascript",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/OussamaRomdhane/easy-converter.git"
-    },
-    "keywords": [
-        "unit",
-        "converter"
-    ],
-    "author": "Oussama Romdhane <contact@oussama-romdhane.com> (http://oussama-romdhane.com)",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/OussamaRomdhane/easy-converter/issues"
-    },
-    "homepage": "https://github.com/OussamaRomdhane/easy-converter#readme"
+  "name": "easy-converter",
+  "version": "0.1.0",
+  "description": "A modular unit converter for Javascript",
+  "main": "lib",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OussamaRomdhane/easy-converter.git"
+  },
+  "keywords": [
+    "unit",
+    "converter"
+  ],
+  "author": "Oussama Romdhane <contact@oussama-romdhane.com> (http://oussama-romdhane.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OussamaRomdhane/easy-converter/issues"
+  },
+  "homepage": "https://github.com/OussamaRomdhane/easy-converter#readme",
+  "devDependencies": {
+    "mocha": "^3.0.2"
+  }
 }
