@@ -1,20 +1,23 @@
 # easy-converter
-#### The ambitious hopefully universal modular unit converter
 
-easy-converter is a unit converter that will hopefully handle weight, length, area (..) convertions. 
+## The ambitious hopefully universal modular unit converter
+
+easy-converter is a unit converter that will hopefully handle weight, length, area (..) convertions.
 
 For now it supports:
-  - Length (distance)
 
-###### Installation:
+- Length (distance)
 
-```npm install --save easy-converter```
+### Installation:
 
-###### Test:
+`npm install --save easy-converter`
 
-```npm run test```
+### Test:
 
-###### Example:
+`npm run test`
+
+### Example:
+
 ```
 var easyconverter = require('easy-converter');
 var c = new easyconverter({});
