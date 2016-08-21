@@ -7,10 +7,10 @@
 * [Test](#test "Test")
 * [Example](#example "Example")
 * [Supported units](#supported-units- "Supported units")
-..* [Distance](#distance "Distance")
-..* [Weight](#weight "Weight")
-..* [Area](#area "Area")
-..* [Computer storage](#computer-storage "Computer storage")
+  * [Distance](#distance "Distance")
+  * [Weight](#weight "Weight")
+  * [Area](#area "Area")
+  * [Computer storage](#computer-storage "Computer storage")
 
 ### Introduction
 
