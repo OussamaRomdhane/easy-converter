@@ -2,6 +2,16 @@
 
 ## The ambitious, easy to use unit converter
 
+* [Introduction](#introduction "Introduction")
+* [Installation](#installation "Installation")
+* [Test](#test "Test")
+* [Example](#example "Example")
+* [Supported units](#supported-units- "Supported units")
+..* [Distance](#distance "Distance")
+..* [Weight](#weight "Weight")
+..* [Area](#area "Area")
+..* [Computer storage](#computer-storage "Computer storage")
+
 ### Introduction
 
 easy-converter is a unit converter that will handle weight, length, area (..) conversions.
@@ -25,12 +35,12 @@ For now it supports:
 
 ```
 var easyconverter = require('easy-converter');
-var c = new easyconverter({});
+var c = new easyconverter();
 
 c.convert(1, 'cm').to('m');
 ```
 
-### Supported Units :
+### Supported units :
 
 
 #### Distance
