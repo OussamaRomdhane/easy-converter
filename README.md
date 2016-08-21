@@ -2,6 +2,19 @@
 
 ## The ambitious, easy to use unit converter
 
+- [Introduction](#introduction "Introduction")
+- [Installation](#installation "Installation")
+- [Test](#test "Test")
+- [Example](#example "Example")
+- [Supported units](#supported-units- "Supported units")
+
+  - [Distance](#distance "Distance")
+  - [Weight](#weight "Weight")
+  - [Area](#area "Area")
+  - [Computer storage](#computer-storage "Computer storage")
+
+### Introduction
+
 easy-converter is a unit converter that will handle weight, length, area (..) conversions.
 
 For now it supports:
@@ -9,6 +22,7 @@ For now it supports:
 - Length (distance)
 - Mass (weight)
 - Area
+- Computer storage
 
 ### Installation:
 
@@ -16,20 +30,31 @@ For now it supports:
 
 ### Test:
 
-`npm run test` or `npm test`
+`npm run test`
+
+or
+
+`npm test`
 
 ### Example:
 
 ```
 var easyconverter = require('easy-converter');
-var c = new easyconverter({});
+var c = new easyconverter();
 
 c.convert(1, 'cm').to('m');
 ```
 
-#### Supported Units :
+The converter will return ```NaN``` in case of an unauthorized conversion.
 
-Distance
+```
+c.convert(1, 'cm').to('b');
+// => NaN
+```
+
+### Supported units :
+
+#### Distance
 
 Unit         | Abbreviation in easy-converter
 ------------ | :----------------------------:
@@ -53,7 +78,7 @@ light-hour   |               lh
 light-minute |               lm
 light-second |               ls
 
-Weight
+#### Weight
 
 Unit                    | Abbreviation in easy-converter
 ----------------------- | :----------------------------:
@@ -84,7 +109,7 @@ ton (short)             |              stn
 ton-metric              |               t
 tonne (U.S. metric ton) |               t
 
-Area
+#### Area
 
 Unit              | Abbreviation in easy-converter
 ----------------- | :----------------------------:
@@ -98,3 +123,27 @@ square millimeter |              mm2
 square centimeter |              cm2
 square meter      |               m2
 square kilometer  |              km2
+
+#### Computer storage
+
+Unit      | Abbreviation in easy-converter
+--------- | :----------------------------:
+bit       |               b
+kilobit   |               kb
+megabit   |               Mb
+gigabit   |               Gb
+terabit   |               Tb
+petabit   |               Pb
+exabit    |               Eb
+zettabit  |               Zb
+yottabit  |               Yb
+nibble    |             nibble
+byte      |               B
+kilobyte  |               kB
+megabyte  |               MB
+gigabyte  |               GB
+terabyte  |               TB
+petabyte  |               PB
+exabyte   |               EB
+zettabyte |               ZB
+yottabyte |               YB
