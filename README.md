@@ -1,5 +1,12 @@
 # easy-converter
 
+[![Build Status](https://travis-ci.org/OussamaRomdhane/easy-converter.svg?branch=master)](https://travis-ci.org/OussamaRomdhane/easy-converter)
+[![npm version](https://badge.fury.io/js/easy-converter.svg)](https://badge.fury.io/js/easy-converter)
+[![license](https://img.shields.io/badge/license-ISC-green.svg)](https://github.com/OussamaRomdhane/easy-converter/blob/master/LICENSE)
+
+
+[![NPM](https://nodei.co/npm/easy-converter.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/easy-converter/)
+
 ## The ambitious, easy to use unit converter
 
 - [Introduction](#introduction "Introduction")
@@ -45,7 +52,7 @@ var c = new easyconverter();
 c.convert(1, 'cm').to('m');
 ```
 
-The converter will return ```NaN``` in case of an unauthorized conversion.
+The converter will return `NaN` in case of an unauthorized conversion.
 
 ```
 c.convert(1, 'cm').to('b');
