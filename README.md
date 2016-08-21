@@ -2,15 +2,16 @@
 
 ## The ambitious, easy to use unit converter
 
-* [Introduction](#introduction "Introduction")
-* [Installation](#installation "Installation")
-* [Test](#test "Test")
-* [Example](#example "Example")
-* [Supported units](#supported-units- "Supported units")
-  * [Distance](#distance "Distance")
-  * [Weight](#weight "Weight")
-  * [Area](#area "Area")
-  * [Computer storage](#computer-storage "Computer storage")
+- [Introduction](#introduction "Introduction")
+- [Installation](#installation "Installation")
+- [Test](#test "Test")
+- [Example](#example "Example")
+- [Supported units](#supported-units- "Supported units")
+
+  - [Distance](#distance "Distance")
+  - [Weight](#weight "Weight")
+  - [Area](#area "Area")
+  - [Computer storage](#computer-storage "Computer storage")
 
 ### Introduction
 
@@ -41,7 +42,6 @@ c.convert(1, 'cm').to('m');
 ```
 
 ### Supported units :
-
 
 #### Distance
 
