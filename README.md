@@ -30,7 +30,11 @@ For now it supports:
 
 ### Test:
 
-`npm run test` or `npm test`
+`npm run test`
+
+or
+
+`npm test`
 
 ### Example:
 
@@ -39,6 +43,13 @@ var easyconverter = require('easy-converter');
 var c = new easyconverter();
 
 c.convert(1, 'cm').to('m');
+```
+
+The converter will return ```NaN``` in case of an unauthorized conversion.
+
+```
+c.convert(1, 'cm').to('b');
+// => NaN
 ```
 
 ### Supported units :
