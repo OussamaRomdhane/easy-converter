@@ -1,6 +1,6 @@
 {
     "name": "easy-converter",
-    "version": "0.4.0",
+    "version": "0.4.1",
     "description": "A unit converter for Javascript",
     "main": "lib",
     "scripts": {
@@ -14,6 +14,9 @@
         "unit",
         "converter"
     ],
+    "engines": {
+        "node": ">=0.10"
+    },
     "author": "Oussama Romdhane <contact@oussama-romdhane.com> (http://oussama-romdhane.com)",
     "license": "ISC",
     "bugs": {
