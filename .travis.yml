@@ -8,6 +8,10 @@ node_js:
   - "4.4"
   - "5.11"
   - "6.2"
+os:
+  - linux
+  - osx
+  - windows
 sudo: false
 cache:
 directories:
