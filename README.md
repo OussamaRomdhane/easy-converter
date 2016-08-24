@@ -2,8 +2,7 @@
 
 [![Build Status](https://travis-ci.org/OussamaRomdhane/easy-converter.svg?branch=master)](https://travis-ci.org/OussamaRomdhane/easy-converter) [![npm version](https://badge.fury.io/js/easy-converter.svg)](https://badge.fury.io/js/easy-converter) [![license](https://img.shields.io/badge/license-ISC-green.svg)](https://github.com/OussamaRomdhane/easy-converter/blob/master/LICENSE)
 
-[![Windows](https://img.shields.io/badge/windows-passing-brightgreen.svg)](https://ci.appveyor.com/project/OussamaRomdhane/easy-converter) [![Linux](https://img.shields.io/badge/linux-passing-brightgreen.svg)](https://travis-ci.org/OussamaRomdhane/easy-converter) [![OSX](https://img.shields.io/badge/osx-passing-brightgreen.svg)](https://travis-ci.org/OussamaRomdhane/easy-converter)
-[![nodejs minimum version](https://img.shields.io/badge/nodejs-0.10-brightgreen.svg)]()
+[![nodejs minimum version](https://img.shields.io/badge/nodejs-0.10-brightgreen.svg)](https://travis-ci.org/OussamaRomdhane/easy-converter) [![Windows](https://img.shields.io/badge/windows-passing-brightgreen.svg)](https://ci.appveyor.com/project/OussamaRomdhane/easy-converter) [![Linux](https://img.shields.io/badge/linux-passing-brightgreen.svg)](https://travis-ci.org/OussamaRomdhane/easy-converter) [![OSX](https://img.shields.io/badge/osx-passing-brightgreen.svg)](https://travis-ci.org/OussamaRomdhane/easy-converter)
 
 [![NPM](https://nodei.co/npm/easy-converter.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/easy-converter/)
 
@@ -19,6 +18,10 @@
   - [Weight](#weight "Weight")
   - [Area](#area "Area")
   - [Computer storage](#computer-storage "Computer storage")
+
+- [How to contribute](#supported-units- "How to contribute")
+
+- [Credits](#credits "Credits")
 
 ### Introduction
 
@@ -154,3 +157,25 @@ petabyte  |               PB
 exabyte   |               EB
 zettabyte |               ZB
 yottabyte |               YB
+
+### How to contribute
+
+Just fork and create a PR! Try to match the coding style and indentation (2 spaces tabs) of the files in this repository.
+
+To add a new converter just add add a module in lib/converters that exports an object containing units as keys and ratios as value the reference unit should have the value of 0.
+
+Example:
+
+```
+module.exports = {
+  "a": 1,
+  "b": 2,
+  "c": 3
+}
+```
+
+This means b == 2 _a and c == 3_ a
+
+### Credits
+
+Furey, Edward "Conversion Calculators" From <http://www.CalculatorSoup.com> - Online Calculator Resource. For the amazing formulas
