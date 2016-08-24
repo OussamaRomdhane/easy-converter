@@ -19,7 +19,7 @@
   - [Area](#area "Area")
   - [Computer storage](#computer-storage "Computer storage")
 
-- [How to contribute](#supported-units- "How to contribute")
+- [How to contribute](#how-to-contribute "How to contribute")
 
 - [Credits](#credits "Credits")
 
