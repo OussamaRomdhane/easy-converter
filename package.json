@@ -1,6 +1,6 @@
 {
     "name": "easy-converter",
-    "version": "0.5.0",
+    "version": "0.5.1",
     "description": "A unit converter for Javascript",
     "main": "lib",
     "scripts": {
