@@ -162,7 +162,7 @@ yottabyte |               YB
 
 Just fork and create a PR! Try to match the coding style and indentation (2 spaces tabs) of the files in this repository.
 
-To add a new converter just add add a module in lib/converters that exports an object containing units as keys and ratios as value the reference unit should have the value of 0.
+To add a new converter just add add a module in lib/converters that exports an object containing units as keys and ratios as value the reference unit should have the value of 1.
 
 Example:
 
